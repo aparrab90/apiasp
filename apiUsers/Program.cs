@@ -68,7 +68,7 @@ builder.Services.AddSwaggerGen(options =>
         In = ParameterLocation.Header,
         Scheme = "Bearer"
     });
-    //NUEVO AGREGADO 
+    //NUEVO AGREGADO OpenApi.Models.OpenApiInfo
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
         Title = "apiUser",
